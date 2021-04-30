@@ -7,7 +7,7 @@
 
 /* Body */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Header */
@@ -39,12 +39,27 @@ body {
   line-height: 1.5;
   padding: 10px 0 20px 0;
 }
-
+#tribute-info {
+  display: block;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 2em;
+  font-weight: 700;
+}
 
 /* Caption */
 #img-caption {
-    display: block;
-    text-align: center;
-    /* width: 80%;
+  display: block;
+  text-align: center;
+  /* width: 80%;
     margin:0 auto; */
 }
+footer {
+  background: rgba(202, 202, 202, 0.596);
+}
+footer p {
+  text-align: center;
+  padding: 40px 0;
+}
+
+/*  */
