@@ -1,4 +1,36 @@
+/* General Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+#title {
+  text-align: center;
+  padding: 35px 0;
+  background: rgba(202, 202, 202, 0.596);
+  margin-bottom: 40px;
+}
+
+/* Image */
+
 #image {
   width: 100%;
- 
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* History */
+.text-info {
+  width: 80%;
+  margin: 0 auto;
+}
+.text-info h2 {
+  font-size: 1.25em;
+}
+.text-info p {
+  line-height: 1.5;
+  padding: 10px 0 20px 0;
 }
