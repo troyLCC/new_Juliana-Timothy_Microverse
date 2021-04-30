@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Header */
 #title {
   text-align: center;
@@ -33,4 +38,13 @@
 .text-info p {
   line-height: 1.5;
   padding: 10px 0 20px 0;
+}
+
+
+/* Caption */
+#img-caption {
+    display: block;
+    text-align: center;
+    /* width: 80%;
+    margin:0 auto; */
 }
